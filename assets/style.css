@@ -1,0 +1,49 @@
+:root {
+    --gray: #808080;
+    --blue: #0085CA;
+    --black: #000000;
+    --dark-gray: #5A5A5A;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    color: 
+}
+
+/*header styling*/
+header {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+header h1 {
+    color: var(--blue);
+    font-size: 45px;
+    font-weight: bold;
+    background-color: var(--dark-gray);
+    padding: 10px;
+}
+
+header a {
+
+}
+
+header nav {
+    margin: 12px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
