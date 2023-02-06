@@ -6,11 +6,9 @@ This project was to begin creating my professional portfolio so I can show off p
 
 ## Website Links
 
-- Deployed URL: 
-- GitHub Repository: 
+- Deployed URL: https://blakeedwards3.github.io/professional-portfolio/
+- GitHub Repository: https://github.com/blakeedwards3/professional-portfolio
 
 ## Website Screenshot
 
-
-## Credits
-
+![](assets/images/webpage-screenshot.png)
