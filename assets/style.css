@@ -60,12 +60,20 @@ header a {
 }
 
 .background-image {
-    min-width: 100%;
+    background-image: url(/assets/images/coding-background.webp);
+    background-size: cover;
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-#pfp {
-
+img {
+    max-width: 50%;
+    max-height: 50%;
+    border: 5px solid black;
+    margin-left: 30px;
+    margin-bottom: 50px;
 }
 
 /*about me*/
