@@ -11,7 +11,7 @@
 
 body {
     background-color: var(--gray);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     color: black;
 }
 
@@ -96,7 +96,7 @@ img {
 }
 
 section p {
-    font-size: 20px;
+    font-size: 23px;
     padding: 0 30px;
     line-height: 3;
     width: 88%;
@@ -215,7 +215,7 @@ section p {
 /*Contact Me*/
 
 .contact {
-    display: flex;
+
 }
 
 .contact-info {
@@ -227,21 +227,30 @@ section p {
     border-right: #000000 solid 5px;
 }
 
-content ul {
+content {
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    font-size: 23px;
+}
+
+.phone {
+    font-size: larger;
+    font-weight: bold;
 }
 
 /*Screen Size Responsiveness*/
 
 @media screen and (max-width: 992px) {
-    
+    header {
+        justify-content: center;
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
+
 }
 
 @media screen and (max-width: 576px) {
