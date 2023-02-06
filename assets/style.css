@@ -61,7 +61,7 @@ header a:hover {
 }
 
 .background-image {
-    background-image: url(/assets/images/coding-background.webp);
+    background-image: url(./images/coding-background.webp);
     background-size: cover;
     height: 500px;
     display: flex;
@@ -168,7 +168,7 @@ section p {
     height: 300px;
     margin: 1.5% 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(/assets/images/horiseon-refactor.png)
+    background-image: url(./images/horiseon-refactor.png)
 }
 
 .project2 {
@@ -178,7 +178,7 @@ section p {
     height: 150px;
     margin: 0 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(/assets/images/galaxy.jpg)
+    background-image: url(./images/galaxy.jpg)
 }
 
 .project3 {
@@ -188,7 +188,7 @@ section p {
     height: 150px;
     margin: 0 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(/assets/images/grand-canyon.jpg)
+    background-image: url(./images/grand-canyon.jpg)
 }
 
 .project4 {
@@ -198,7 +198,7 @@ section p {
     height: 150px;
     margin: 0 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(/assets/images/iceland-mountians.jpg)
+    background-image: url(./images/iceland-mountians.jpg)
 }
 
 .project5 {
@@ -208,7 +208,7 @@ section p {
     height: 150px;
     margin: 0 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(/assets/images/tropical-beach.jpg)
+    background-image: url(./images/tropical-beach.jpg)
 }
 
 
