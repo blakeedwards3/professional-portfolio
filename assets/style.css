@@ -1,8 +1,6 @@
 :root {
     --gray: #808080;
     --blue: #003dca;
-    --black: #000000;
-    --dark-gray: #5A5A5A;
 }
 
 * {
@@ -14,7 +12,7 @@
 body {
     background-color: var(--gray);
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--black)
+    color: black;
 }
 
 /*header styling*/
@@ -23,6 +21,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px;
+    background-color: #292e38;
 }
 
 header h1 {
@@ -228,9 +227,23 @@ section p {
     border-right: #000000 solid 5px;
 }
 
-content ul li {
+content ul {
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+
+/*Screen Size Responsiveness*/
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+    
 }
