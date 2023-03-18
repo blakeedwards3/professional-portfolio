@@ -1,8 +1,6 @@
 :root {
     --gray: #808080;
     --blue: #003dca;
-    --black: #000000;
-    --dark-gray: #5A5A5A;
 }
 
 * {
@@ -13,8 +11,8 @@
 
 body {
     background-color: var(--gray);
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--black)
+    font-family: sans-serif;
+    color: black;
 }
 
 /*header styling*/
@@ -23,6 +21,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px;
+    background-color: #292e38;
 }
 
 header h1 {
@@ -30,12 +29,17 @@ header h1 {
     font-size: 45px;
     font-weight: bold;
     padding: 10px;
-    border: 5px solid black
+    border: 5px solid black;
+    background-color: rgb(209, 209, 209);
 }
 
 header a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--blue);
+    padding: 5px;
+    font-size: 25px;
+    margin: 20px 20px 0 0;
+    font-weight: bold;
 }
 
 header nav {
@@ -52,15 +56,12 @@ header li {
     list-style: none;
 }
 
-header a {
-    padding: 5px;
-    font-size: 25px;
-    margin: 20px 20px 0 0;
-    font-weight: bold;
+header a:hover {
+    color: white;
 }
 
 .background-image {
-    background-image: url(/assets/images/coding-background.webp);
+    background-image: url(./images/coding-background.webp);
     background-size: cover;
     height: 500px;
     display: flex;
@@ -95,11 +96,11 @@ img {
 }
 
 section p {
-    font-size: 20px;
+    font-size: 23px;
     padding: 0 30px;
-    line-height: 1.5;
-    width: 90%;
-    margin: 25px;
+    line-height: 3;
+    width: 88%;
+    margin: 1.5% 1% 2% 1%;
 
 }
 
@@ -124,10 +125,10 @@ section p {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto 0 auto;
-    height: 650px;
+    flex-direction: row;
     width: 100%;
 }
 
@@ -140,7 +141,24 @@ section p {
     text-decoration: none;
     background-size: cover;
     background-position: center;
-    opacity: 0.5;
+    opacity: 75%;
+}
+
+.project:hover {
+    opacity: 100%;
+}
+
+.label {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    opacity: 85%;
+    width: 18%;
+    position: absolute;
+    bottom: 10%;
+    right: 82%;
+
 }
 
 .horiseon {
@@ -148,15 +166,15 @@ section p {
     background-size: cover;
     width: 100%;
     height: 300px;
-    margin: 0 1% 2% 1%;
+    margin: 1.5% 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(/assets/images/horiseon-refactor.png)
+    background-image: url(./images/horiseon-refactor.png)
 }
 
 .little-big-sales {
     position: relative;
     background-size: cover;
-    width: 45%;
+    width: 48%;
     height: 150px;
     margin: 0 1% 2% 1%;
     border: black 5px solid;
@@ -166,38 +184,38 @@ section p {
 .project3 {
     position: relative;
     background-size: cover;
-    width: 45%;
+    width: 48%;
     height: 150px;
     margin: 0 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(/assets/images/grand-canyon.jpg)
+    background-image: url(./images/grand-canyon.jpg)
 }
 
 .project4 {
     position: relative;
     background-size: cover;
-    width: 45%;
+    width: 48%;
     height: 150px;
     margin: 0 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(/assets/images/iceland-mountians.jpg)
+    background-image: url(./images/iceland-mountians.jpg)
 }
 
 .project5 {
     position: relative;
     background-size: cover;
-    width: 45%;
+    width: 48%;
     height: 150px;
     margin: 0 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(/assets/images/tropical-beach.jpg)
+    background-image: url(./images/tropical-beach.jpg)
 }
 
 
 /*Contact Me*/
 
 .contact {
-    display: flex;
+
 }
 
 .contact-info {
@@ -207,4 +225,34 @@ section p {
     padding-right: 15px;
     width: 10%;
     border-right: #000000 solid 5px;
+}
+
+content {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+}
+
+.phone {
+    font-size: larger;
+    font-weight: bold;
+}
+
+/*Screen Size Responsiveness*/
+
+@media screen and (max-width: 992px) {
+    header {
+        justify-content: center;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    
 }
