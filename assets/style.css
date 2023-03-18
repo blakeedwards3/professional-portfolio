@@ -153,14 +153,14 @@ section p {
     background-image: url(/assets/images/horiseon-refactor.png)
 }
 
-.project2 {
+.little-big-sales {
     position: relative;
     background-size: cover;
     width: 45%;
     height: 150px;
     margin: 0 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(/assets/images/galaxy.jpg)
+    background-image: url(/assets/images/little-big-sales.png)
 }
 
 .project3 {
