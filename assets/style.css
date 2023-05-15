@@ -173,6 +173,19 @@ section p {
     height: 55%;
 }
 
+.label3 {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    opacity: 85%;
+    width: 50%;
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    height: 55%;
+}
+
 .horiseon {
     position: relative;
     background-size: cover;
@@ -193,14 +206,14 @@ section p {
     background-image: url(./images/little-big-sales.png)
 }
 
-.project3 {
+.nacho-mamas-cookbook {
     position: relative;
     background-size: cover;
     width: 48%;
     height: 150px;
     margin: 0 1% 2% 1%;
     border: black 5px solid;
-    background-image: url(./images/grand-canyon.jpg)
+    background-image: url(./images/nacho-mamas-cookbook.jpg)
 }
 
 .project4 {
